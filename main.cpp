@@ -13,7 +13,7 @@ int main(int argc, char* argv[]) //main는 코드의 시작점, int 값은 실행 성공여부
 	int a3{ 0 }; (최신용)
 
 	value1 = 0b1101011; // 0b는 뒤 숫자 이진법 표기 선언, 두 숫자 이진법
-	value1 = 0123; //8진법 표기법
+	value1 = 0123; //0는 8진법 표기법
 	value1 = 0x9f; //0x는 16진법 표기법
 	unsigned int value2;//unsigned는 정수만 가능
 	float value3; //실수 가능
