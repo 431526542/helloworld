@@ -24,7 +24,7 @@ int main()
 		result = (a == b) ? true : false;
 		result = (a > 0 && b > 0) ? true : false;
 		result = (a > 0 || b > 0) ? true : false;
-		result = (a < 0 && --b>0) ? true : false; //c++은 앞에있는게 false면 뒤에건 실행안함
+		result = (a < 0 && --b>0) ? true : false; //c++은 앞에있는게 false면 뒤에건 실행안함 .>>그래서 원래 b=-6이여야하는데 b=-5이다
 		result = !(a > 0) ? true : false;
 		cout << "Result = " << boolalpha << result << noboolalpha << " b =" << b << endl; //true false로 보고 싶으면 boolalpha를 붙인다.
 		cout << "Result = " <<   result << " b =" << b << endl;
@@ -50,7 +50,7 @@ int main()
 		char cX = 0b10010100; //char는 8bit
 		cout << "cX = " << bitset<8>(cX) << endl;
 		cX = cX >> 2;
-		cout << "cX = " << bitset<8>(cX) << endl;// 가장 마지막에 있는 bit를 복사해서 이동한다 
+		cout << "cX = " << bitset<8>(cX) << endl;// 맨앞자리 bit를 복사해서 이동한다 
 												 //10010100이면 앞숫자가 1로 나오고 000101000이면 앞숫자가 0으로 나온다.
 	}
 	{

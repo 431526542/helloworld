@@ -1,7 +1,7 @@
 /*
 #include <iostream> //iostream 는 C++ 표준의 라이브러리를 가져오겠다
 
-int main(int argc, char* argv[]) //main는 코드의 시작점, int 값은 실행 성공여부
+int main(int argc, char* argv[]) //main는 코드의 시작점, int 값은 실행, 성공여부 argc는 셋팅값의 갯수 
 
 {      
 	int value1; // signed int는 음수 가능,  int는 기본적으로 signed이다.
@@ -16,8 +16,8 @@ int main(int argc, char* argv[]) //main는 코드의 시작점, int 값은 실행 성공여부
 	value1 = 0123; //0는 8진법 표기법
 	value1 = 0x9f; //0x는 16진법 표기법
 	unsigned int value2;//unsigned는 정수만 가능
-	float value3; //실수 가능
-	char c1 = 'b';//문자 가능
+	float value3; //실수 가능(3.141592)
+	char c1 = 'b';//문자하나 가능
 	c1 = '\101';//유니코드  (101=A)
 	c1 = '\x41';//16진법    (41=A)
 

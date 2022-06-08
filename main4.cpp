@@ -10,7 +10,7 @@ enum class PieceType : unsigned long {King=1, Queen, Rook=10,Pawn};
 
 int main()
 {
-	PieceType1 myPiece1 = PieceTypeRook; //위에 enum은 자동으로 변환이 가능하다.
+	PieceType1 myPiece1 = PieceTypeRook; //위에 enum은 자동으로 변환이 가능하다. , 
 	int a = myPiece1;
 
 	PieceType myPiece2 = PieceType:: King; //위에 enum class값은 자동으로 변환되지 않는다. 그래서 위와 같이 unsifend long을 사용한다.

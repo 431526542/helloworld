@@ -35,8 +35,8 @@ int main()
 	cout << "Sum :" << endl;
 	cout << firstNum + secondNum << endl;
 
-	const int a = 0; //절댓값지정 수정할 수 없다
-	constexpr int b = fac(4); //순서에 상관없이 먼저 값을 먼저 선정한다
+	const int a = 0; //절댓값지정 수정할 수 없다 >> a=1 이런식으로 설정 불가능
+	constexpr int b = fac(4); //순서에 상관없이 먼저 값을 먼저 선정한다 >>머리속에서 지워라
 	//int b = fac(4); //순서에 맞게 계산후 마지막에 계산
 }
 */

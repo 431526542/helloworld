@@ -1,3 +1,4 @@
+/*
 #include <iostream>
 #include<bitset>
 
@@ -14,6 +15,7 @@ int main()
 	switch (a)
 	{
 	case 1:
+		__fallthrough;
 	case 3:
 		cout << "남자" << endl;
 		break;
@@ -22,10 +24,10 @@ int main()
 		cout << "여자" << endl;
 		break;
 	default:
-		cout << "외계인" << endl;
+		cout << "ㅋㅋㅋ 너간첩이냐" << endl;
 		break;
 	}
-    /*
+    
 	//4번//
 	int a = { 0 };
 	cout << " 숫자한개입력 ";
@@ -80,8 +82,8 @@ int main()
 
 	switch (Score)
 	{
-	case 10: //폴스루(흘려보내기)시킬수 있다 break가 없으면 걸리지 않는다.    [[fallthrough]]가 명령어이다.
-		[[fallthrough]];
+	case 10: //폴스루(흘려보내기)시킬수 있다 break가 없으면 걸리지 않는다.    __fallthrough;가 명령어이다.
+		__fallthrough;
 	case 9:
 		cout << "A" << endl;
 		break;
@@ -146,5 +148,5 @@ int main()
 	{
 		cout << "F" << endl;
 	}
-	*/
-}
+	
+}*/
